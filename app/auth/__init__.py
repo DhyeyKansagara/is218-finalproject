@@ -171,9 +171,9 @@ def delete_user(user_id):
     flash('User Deleted', 'success')
     return redirect(url_for('auth.browse_users'), 302)
 
-if __name__ == '__main__':
-    log = logging.getLogger("__main__")
-    log.DEBUG('method:{}, route:{}, time:{}, request address{}')
-
+# if __name__ == '__main__':
+#     log = logging.getLogger("__main__")
+#     log.DEBUG('method:{}, route:{}, time:{}, request address{}')
+#
 
 
