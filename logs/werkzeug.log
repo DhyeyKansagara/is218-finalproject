@@ -1,0 +1,2 @@
+2022-05-12 04:51:41,045 [INFO] werkzeug: 172.29.0.1 - - [12/May/2022 04:51:41] "GET / HTTP/1.1" 200 -
+2022-05-12 05:05:05,058 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/click_test.py', reloading
