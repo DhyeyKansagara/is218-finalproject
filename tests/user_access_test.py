@@ -3,7 +3,7 @@ import logging
 
 from app import db
 from app.db.models import User, Song
-
+"test"
 def test_user_login(client):
     """Tests if login was successful"""
     with client:
