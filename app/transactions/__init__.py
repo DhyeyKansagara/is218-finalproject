@@ -25,8 +25,11 @@ def transactions_browse(page):
     per_page = 1000
     pagination = Transaction.query.paginate(page, per_page, error_out=False)
     data = pagination.items
+    balance = 0
+    for i in data:
+        balance += i.amount
     try:
-        return render_template('browse_transactions.html', data=data, pagination=pagination)
+        return render_template('browse_transactions.html',data=data,pagination=pagination, balance=balance)
     except TemplateNotFound:
         abort(404)
 

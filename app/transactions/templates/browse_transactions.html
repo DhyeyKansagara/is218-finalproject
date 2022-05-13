@@ -14,6 +14,10 @@
         {% from 'bootstrap5/pagination.html' import render_pagination %}
 
         {{ render_pagination(pagination) }}
+
+        <h3>Total balance:</h3>
+        <h4>${{ balance }}</h4>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap5.min.js"></script>
