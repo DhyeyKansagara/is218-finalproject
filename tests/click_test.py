@@ -1,6 +1,6 @@
 import logging
 import os
-
+"test"
 from click.testing import CliRunner
 
 from app import create_database

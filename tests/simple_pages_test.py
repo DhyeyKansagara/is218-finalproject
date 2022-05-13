@@ -1,5 +1,5 @@
 """This test the homepage"""
-
+"test"
 def test_request_main_menu_links(client):
     """This makes the index page"""
     response = client.get("/")
